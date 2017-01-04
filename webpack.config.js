@@ -7,7 +7,7 @@ output:{
 devtool:'source-map',
 module:{
 	loaders:[
-	{test:/\.js$/,loader:'babel'},
+	{test:/\.js$/, exclude: /node_modules/, loader:'react-hot!babel'},
 	{test:/\.css$/,loader:'style!css!'}
 	]
 }

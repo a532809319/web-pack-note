@@ -1,5 +1,10 @@
+'use strict';
+import React from "react";
+import ReactDOM from "react-dom";
+import Name from "./name";
 
-  import name from './name';
-  import './style.css';
+ReactDOM.render(
+	<Name/>,
+	document.getElementById('app')
+);
   
-document.getElementById('app').textContent='hahh'+name;

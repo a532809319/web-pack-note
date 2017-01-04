@@ -106,7 +106,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body{\r\n\tbackground: red;\r\n}\r\n.hukia{\r\n\tbackground: red;\r\n}", ""]);
+	exports.push([module.id, "body{\r\n\tbackground: green;\r\n}\r\n.hukia{\r\n\tbackground: green;\r\n}", ""]);
 	
 	// exports
 
