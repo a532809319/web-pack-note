@@ -7,8 +7,8 @@ output:{
 devtool:'source-map',
 module:{
 	loaders:[
-	{test:/\.js/,loader:'babel'},
-	{test:/\.css/,loader:'style!css!'}
+	{test:/\.js$/,loader:'babel'},
+	{test:/\.css$/,loader:'style!css!'}
 	]
 }
 };
